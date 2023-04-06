@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: noto sans kr;
+    src: local("NotoSansKR-Regular")
+     url(NotoSansKR-Regular.otf);
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 960px;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px 
+    rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+}
+
+/* .wrapper__header {
+    
+} */
+
+.header__codecamp {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #0068FF;
+    padding-bottom: 60px;
+}
+
+.wrapper__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body__email {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 60px;
+    background-color: FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.body__name {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    
+}
+
+.body__password__1 {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.body__password__2 {
+    display: flex;
+    width: 380px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.body__phonenumber {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.phonenumber__1 {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.phonenumber__2 {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.phonenumber__3 {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.body__auth {
+    display: flex;
+    flex-direction: row;
+}
+
+.auth__number {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    color: #0068FF;
+
+}
+
+.auth__send {
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #0068FF;
+}
+
+.body__auth__check {
+    display: flex;
+    flex-direction: row;
+}
+
+.auth__timer {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    color: #0068FF;
+}
+
+.auth__check {
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+    background-color: #0068FF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color:#FFFFFF;
+}
+    
+.wrapper__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__region {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+}
+
+.footer__gender {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.divideLine {
+    width: 380px;
+    border-top: 1px solid red;
+    padding: 20px;
+}
+
+.footer__register__check {
+    display: flex;
+    flex-direction: row; 
+    box-sizing: border-box;
+    width: 380px;
+    height: 75px;
+    background-color: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+}
